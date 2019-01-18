@@ -14,5 +14,6 @@ cat GTEx_Data_20160115_v7_RNAseq_RNASeQCv1.1.8_metrics.tsv | awk '{print $1,$2,$
 zcat file.txt.gz | head | less -s
 #Checks size of directory
 du -sbh /path/to/directory
-
+#Data Dictionary Link 
+ftp://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs000424/phs000424.v7.p2/pheno_variable_summaries/phs000424.v7.pht002742.v7.GTEx_Subject_Phenotypes.data_dict.xml
 
